@@ -100,6 +100,7 @@ steps:
       fi
 
 logsBucket: "gs://${_GCS_BUCKET}"
+serviceAccount: "${_CUSTOM_SERVICE_ACCOUNT}"
 timeout: 7200s
 substitutions:
   _CONFIG_FILE: "config/config.json"
